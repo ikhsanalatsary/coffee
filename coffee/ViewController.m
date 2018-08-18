@@ -41,6 +41,8 @@
         self.coffeTextField.text = coffeText;
     }
     
+    [self.view endEditing:YES];
+
 }
 
 @end
